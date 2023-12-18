@@ -98,7 +98,7 @@ const Skills = () => {
     },
   ]
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className="flex h-20 items-center justify-center">
 
         <h1 className="text-3xl text-[#FDCA3A] font-bold text-center">

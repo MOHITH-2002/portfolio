@@ -17,7 +17,7 @@ const Projects = () => {
   
   return (
     <div className="flex flex-col">
-    <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-y-8 pb-10">
+    <div className="flex flex-col justify-center items-center gap-y-8 pb-10">
     <h1 className=" pt-10 text-3xl text-[#FDCA3A] font-bold text-center">Projects</h1>
     <div className="flex gap-x-8 ">
         <Button onClick={()=>{isWeb(true);
@@ -36,19 +36,19 @@ const Projects = () => {
     {web &&(
 
       <>
-      <div data-aos="fade-left" className="flex pt-10 pb-20 md:justify-center">
+      <div  className="flex pt-10 pb-20 md:justify-center">
           <Notejoy />
         </div>
-        <div data-aos="fade-right" className="flex pt-10 pb-20 md:justify-center">
+        <div className="flex pt-10 pb-20 md:justify-center">
             <Chat_app />
           </div>
-          <div data-aos="fade-left" className="flex pt-10 pb-20 md:justify-center">
+          <div className="flex pt-10 pb-20 md:justify-center">
             <PlotChart />
           </div>
-          <div data-aos="fade-right" className="flex pt-10 pb-20 md:justify-center">
+          <div className="flex pt-10 pb-20 md:justify-center">
             <Freelancehive />
           </div>
-          <div data-aos="fade-left" className="flex pt-10 pb-20 md:justify-center">
+          <div className="flex pt-10 pb-20 md:justify-center">
             <JustforFoodies />
           </div>
           </>

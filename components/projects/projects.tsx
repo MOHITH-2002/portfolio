@@ -56,9 +56,11 @@ const Projects = () => {
     {/* Data Anyaltics */}
     {
       data &&(
+        <>
         <div className="flex pt-10 pb-20 md:justify-center">
             <Soon/>
           </div>
+        </>
       )
     }
     </div>

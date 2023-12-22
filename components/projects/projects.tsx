@@ -17,7 +17,7 @@ const Projects = () => {
   
   return (
     <div className="flex flex-col">
-    <div className="flex flex-col justify-center items-center gap-y-8 pb-10">
+    <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-y-8 pb-10">
     <h1 className=" pt-10 text-3xl text-[#FDCA3A] font-bold text-center">Projects</h1>
     <div className="flex gap-x-8 ">
         <Button onClick={()=>{isWeb(true);
@@ -35,7 +35,7 @@ const Projects = () => {
     {/* Web projects */}
     {web &&(
 
-      <>
+      <div data-aos="fade-up">
       <div  className="flex pt-10 pb-20 md:justify-center">
           <Notejoy />
         </div>
@@ -51,16 +51,16 @@ const Projects = () => {
           <div className="flex pt-10 pb-20 md:justify-center">
             <JustforFoodies />
           </div>
-          </>
+          </div>
       )}
     {/* Data Anyaltics */}
     {
       data &&(
-        <>
+        <div data-aos="fade-up">
         <div className="flex pt-10 pb-20 md:justify-center">
-            <Soon/>
+            <Freelancehive/>
           </div>
-        </>
+        </div>
       )
     }
     </div>

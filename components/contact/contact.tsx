@@ -5,7 +5,7 @@ import ShadowForm from './_components/form';
 
 const Contact = () => {
   return (
-    <div>
+    <div data-aos="fade-up" >
     <div className="flex flex-col justify-center items-center gap-y-8 pb-10" >
         <h1 className=" pt-10 text-3xl text-[#FDCA3A] font-bold text-center">Contact Me</h1>
         <h1 className="text-2xl">Feel free to contact me.</h1>

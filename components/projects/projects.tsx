@@ -7,7 +7,8 @@ import PlotChart from './_components/webprojects/plot_chart'
 import Freelancehive from './_components/webprojects/freelance'
 import JustforFoodies from './_components/webprojects/just_for_foodies'
 import { cn } from '@/lib/utils';
-import Soon from './_components/data_analytics/soon';
+
+import Covid from './_components/data_analytics/covid';
 
 
 const Projects = () => {
@@ -58,7 +59,7 @@ const Projects = () => {
       data &&(
         <div data-aos="fade-up">
         <div className="flex pt-10 pb-20 md:justify-center">
-            <Freelancehive/>
+            <Covid/>
           </div>
         </div>
       )

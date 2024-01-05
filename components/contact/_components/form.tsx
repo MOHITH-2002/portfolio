@@ -33,24 +33,24 @@ const ShadowForm: React.FC<ShadowFormProps> = () => {
     <div >
 
     <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-10">
-      <div className="grid w-full max-w-sm items-center gap-1.5">
-      <Label htmlFor="user">User name</Label>
-      <Input type="text" id="user" placeholder="username" required/>
-    </div>
+       <div className="grid w-full max-w-sm items-center gap-1.5">
+       <Label htmlFor="user">User name</Label>
+       <Input type="text" id="user" placeholder="username" name="user_name" required/>
+     </div>
 
-      <div className="grid w-full max-w-sm items-center gap-1.5">
-      <Label htmlFor="email">Email</Label>
-      <Input type="email" id="email" placeholder="Email" required/>
-    </div>
+       <div className="grid w-full max-w-sm items-center gap-1.5">
+       <Label htmlFor="email">Email</Label>
+       <Input type="email" name="user_email" id="email" placeholder="Email" required/>
+     </div>
 
-      <div className="grid w-full gap-1.5">
-      <Label htmlFor="message">Your message</Label>
-      <Textarea placeholder="Type your message here." id="message" required/>
-    </div>
+       <div className="grid w-full max-w-sm gap-1.5">
+       <Label htmlFor="message">Your message</Label>
+       <Textarea placeholder="Type your message here." name="message" id="message" required/>
+     </div>
 
-      <div className="">
-        <Button type="submit">Send a message</Button>
-      </div>
+       <div className="grid w-full max-w-sm gap-1.5">
+         <Button type="submit" value="Submit">Send a message</Button>
+       </div>
     </form>
     </div>
   );

@@ -50,7 +50,13 @@ const Hero = () => {
           <div className='flex gap-x-20 items-end'>
 
         <Button className='mt-5 text-sm' onClick={()=>scrolltoHash()} >Contact me</Button>
-        <Resume/>
+        <>
+        <a href={process.env.NEXT_APP_RESUME_LINK} download="Mohith B A resume.pdf" >
+
+      <Button className="flex text-sm "
+        >Resume</Button>
+        </a>
+    </>
           </div>
       </div>
 

@@ -20,8 +20,11 @@ const Navbar = () => {
         <Logo />
       </div>
       <div className="ml-auto flex gap-6 items-center">
-        <ModeToggle />
+        <div className="hidden md:flex">
+
         <Resume />
+        </div>
+        <ModeToggle />
         <Menu />
       </div>
     </div>

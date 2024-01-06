@@ -11,6 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import Link from "next/link";
+import Resume from "./resume";
 
 const Menu = () => {
     const [avatarImage, setAvatarImage] = useState("/logo.jpeg");
@@ -50,7 +51,9 @@ const Menu = () => {
     </Avatar>
         
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
+        <DropdownMenuContent className="mt-2 mr-1 w-56">
+        <DropdownMenuLabel className="flex justify-center text-lg md:hidden"><Resume/></DropdownMenuLabel>
+            <DropdownMenuSeparator />
         <DropdownMenuLabel className="flex justify-center text-lg">Follow on </DropdownMenuLabel>
             <DropdownMenuSeparator />
             

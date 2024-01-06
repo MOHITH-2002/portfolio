@@ -9,6 +9,7 @@ import JustforFoodies from './_components/webprojects/just_for_foodies'
 import { cn } from '@/lib/utils';
 
 import Covid from './_components/data_analytics/covid';
+import Events from './_components/webprojects/events';
 
 
 const Projects = () => {
@@ -51,6 +52,9 @@ const Projects = () => {
           </div>
           <div className="flex pt-10 pb-20 md:justify-center">
             <JustforFoodies />
+          </div>
+          <div className="flex pt-10 pb-20 md:justify-center">
+            <Events/>
           </div>
           </div>
       )}

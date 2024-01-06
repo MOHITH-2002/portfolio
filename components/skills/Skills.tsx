@@ -115,8 +115,8 @@ const Skills = () => {
             </Button>
           </div>
           {/* each skill */}
-        <div className='flex gap-10'>
-          <div className='flex flex-wrap gap-10'>
+        <div className=''>
+          <div className='flex flex-wrap gap-10  items-center justify-center'>
           {webskill?.map((item,index)=>(
 
             <div className='flex justify-center items-center bg-secondary rounded-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] h-20 w-20 transition-transform hover:scale-105' key={index}>
@@ -144,8 +144,8 @@ const Skills = () => {
             </Button>
           </div>
           {/* each skill */}
-        <div className='flex gap-10 justify-center'>
-          <div className='flex flex-wrap gap-10 '>
+        <div className=''>
+          <div className='flex flex-wrap gap-10 items-center justify-center '>
           {coding?.map((item,index)=>(
 
             <div className='flex justify-center items-center bg-secondary rounded-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] h-20 w-20 transition-transform hover:scale-105' key={index}>
@@ -170,8 +170,8 @@ const Skills = () => {
             </Button>
           </div>
           {/* each skill */}
-        <div className='flex gap-10 justify-center'>
-          <div className='flex flex-wrap gap-10 '>
+        <div className=''>
+          <div className='flex flex-wrap gap-10 items-center justify-center'>
           {dataAnylistSkill?.map((item,index)=>(
 
             <div className='flex justify-center items-center bg-secondary rounded-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] h-20 w-20 transition-transform hover:scale-105' key={index}>

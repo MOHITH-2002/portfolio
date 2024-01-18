@@ -30,7 +30,7 @@ const Hero = () => {
         element?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
       }
   return (
-    <div  className="flex flex-col w-full pt-20 h-screen items-center justify-center md:flex-row md:gap-12">
+    <div  className="flex flex-col w-full pt-10 h-screen items-center justify-center md:flex-row md:gap-12 md:pt-20">
       
       
       

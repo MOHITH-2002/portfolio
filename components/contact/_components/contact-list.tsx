@@ -38,7 +38,7 @@ const ContactList = () => {
         <div className="flex flex-col gap-y-3">
         <h1 className='text-2xl text-[#0072E8]'>Github:</h1>
              <Link href="https://github.com/MOHITH-2002" className="">
-            <Button>Find more projects</Button>
+            <Button variant="outline">Find more projects</Button>
              </Link>
         </div>
         </div>

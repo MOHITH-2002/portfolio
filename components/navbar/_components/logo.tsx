@@ -24,7 +24,7 @@ const Logo = () => {
   }, []);
   return <div className="flex items-center gap-3">
     <Link href="/">
-    <div className="p-0.5 border-2 border-slate-900 rounded-3xl cursor-pointer dark: border-slate-700">
+    <div className="p-0.5 border-2 border-slate-900 rounded-3xl cursor-pointer dark:border-slate-700">
 
     <Avatar>
         <AvatarImage src="/logo.jpeg" alt="logo"/>

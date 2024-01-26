@@ -11,7 +11,7 @@ const Notejoy = () => {
     <div className="flex h-min rounded-md bg-[#008777] flex-col md:h-[80vh] md:flex-row md:pt-10 md:w-[90%]">
     <div className='flex flex-col flex-1 pt-10 pl-2 pr-3 pb-20 gap-y-10 '>
     <h1 className='text-justify text-lg text-[#FEFEFE]'>
-        <b className='text-red-500 text-3xl'>Notejoy</b> is a website that helps you take notes. It is made with Next.js 14, Tailwind CSS, and TypeScript. This means it is easy to use and works quickly. You can use Notejoy to write down your thoughts, ideas, and important information. It is a good choice for people who want an easy-to-use note-taking website.
+        <b className='text-red-500 text-3xl '>Notejoy</b> is a streamlined note-taking website crafted with cutting-edge technologies, including Next.js 14, Tailwind CSS, and TypeScript. Boasting user-friendly functionality and swift performance, Notejoy provides an efficient platform for capturing thoughts, ideas, and vital information. Ideal for individuals seeking an uncomplicated yet robust note-taking solution, Notejoy stands out as a choice that seamlessly integrates ease of use with rapid responsiveness.
     </h1>
     <div className="flex justify-center gap-x-10">
 

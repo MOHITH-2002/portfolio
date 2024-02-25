@@ -23,9 +23,9 @@ const Notejoy = () => {
     </Link>
     </div>
     </div>
-    <div className='flex justify-end flex-1'>
+     <Link className='flex justify-end flex-1' href="https://notejoy.vercel.app/">
     <Image className='rounded-md' src="/notejoy_design.png" width={600} height={600} alt="hero"/>
-    </div>
+    </Link>
     </div>
 
     

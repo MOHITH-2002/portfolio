@@ -26,7 +26,7 @@ const ContactList = () => {
         </div>
         <div className="flex flex-col gap-y-3">
         <h1 className='text-2xl text-[#0072E8]'>Email:</h1>
-          <Link href="mailto:dyedev05@gmail.com" className="text-xl hover:text-green-400 dark:text-[#414141]">dyedev05@gmail.com</Link>
+          <Link href="mailto:dyedev05@gmail.com" className="text-xl hover:text-green-400 dark:text-[#414141]  dark:hover:text-green-400 ">dyedev05@gmail.com</Link>
         </div>
         </div>
         {/* github */}
@@ -38,7 +38,7 @@ const ContactList = () => {
         <div className="flex flex-col gap-y-3">
         <h1 className='text-2xl text-[#0072E8]'>Github:</h1>
              <Link href="https://github.com/MOHITH-2002" className="">
-            <Button variant="outline" className='dark:text-[#414141]'>Find more projects</Button>
+            <Button variant="outline" className='dark:text-[#414141] dark:hover:text-slate-200'>Find more projects</Button>
              </Link>
         </div>
         </div>

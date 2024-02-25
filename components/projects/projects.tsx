@@ -3,13 +3,15 @@ import React, { useState } from 'react'
 import { Button } from '../ui/button'
 import Notejoy from './_components/webprojects/notejoy'
 import Chat_app from './_components/webprojects/chat_app'
-import PlotChart from './_components/webprojects/plot_chart'
-import Freelancehive from './_components/webprojects/freelance'
+import PlotChart from './_components/data_analytics/plot_chart'
+
 import JustforFoodies from './_components/webprojects/just_for_foodies'
 import { cn } from '@/lib/utils';
 
 import Covid from './_components/data_analytics/covid';
 import Events from './_components/webprojects/events';
+import Webwrite from './_components/webprojects/webwrite';
+import IvicamAi from './_components/webprojects/ivicanAi';
 
 
 const Projects = () => {
@@ -39,23 +41,25 @@ const Projects = () => {
 
       <div data-aos="fade-up">
       <div  className="flex pt-10 pb-20 md:justify-center">
+          <Webwrite/>
+        </div>
+      <div  className="flex pt-10 pb-20 md:justify-center">
           <Notejoy />
         </div>
         <div className="flex pt-10 pb-20 md:justify-center">
             <Chat_app />
           </div>
+          
           <div className="flex pt-10 pb-20 md:justify-center">
-            <PlotChart />
-          </div>
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <Freelancehive />
-          </div>
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <JustforFoodies />
+            <IvicamAi />
           </div>
           <div className="flex pt-10 pb-20 md:justify-center">
             <Events/>
           </div>
+          <div className="flex pt-10 pb-20 md:justify-center">
+            <JustforFoodies />
+          </div>
+          
           </div>
       )}
     {/* Data Anyaltics */}
@@ -64,6 +68,10 @@ const Projects = () => {
         <div data-aos="fade-up">
         <div className="flex pt-10 pb-20 md:justify-center">
             <Covid/>
+
+          </div>
+          <div className="flex pt-10 pb-20 md:justify-center">
+            <PlotChart />
           </div>
         </div>
       )

@@ -5,7 +5,7 @@ import React from "react";
 
 const PlotChart = () => {
   return (
-    <div className="flex h-min rounded-md bg-[#37527C] flex-col md:h-[80vh] md:flex-row md:pt-10 md:w-[90%]">
+    <div className="flex h-min rounded-md bg-[#008777] flex-col md:h-[80vh] md:flex-row-reverse md:pt-10 md:w-[90%]">
       
     <div className='flex flex-col flex-1 pt-10 pl-2 pr-3 pb-20 gap-y-10 '>
     <h1 className='text-justify text-lg text-white'>
@@ -22,9 +22,9 @@ const PlotChart = () => {
     </Link>
     </div>
     </div>
-    <div className='flex justify-end flex-1'>
+    <Link className='flex justify-end flex-1' href="https://plotchart.streamlit.app/">
     <Image className='rounded-md' src="/plot_chart_design.png" width={600} height={600} alt="hero"/>
-    </div>
+    </Link>
     </div>
 
 

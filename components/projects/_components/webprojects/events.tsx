@@ -23,9 +23,9 @@ const Events = () => {
     </Link>
     </div>
     </div>
-    <div className='flex justify-end flex-1'>
+    <Link href="https://eventshost.vercel.app/" className='flex justify-end flex-1'>
     <Image className='rounded-md' src="/events.png" width={600} height={600} alt="hero"/>
-    </div>
+    </Link>
     </div>
 
     

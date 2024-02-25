@@ -5,7 +5,7 @@ import React from "react";
 
 const Chat_app = () => {
   return (
-    <div className="flex h-min rounded-md bg-[#FDCA3A] flex-col md:h-[80vh] md:flex-row md:pt-10 md:w-[90%] md:flex-row-reverse">
+    <div className="flex h-min rounded-md bg-[#FDCA3A] flex-col md:h-[80vh]  md:pt-10 md:w-[90%] md:flex-row-reverse">
       
     <div className='flex flex-col flex-1 pt-10 pl-2 pr-3 pb-20 gap-y-10 '>
     <h1 className='text-justify text-lg text-[#121212]'>
@@ -21,9 +21,9 @@ const Chat_app = () => {
     </Link>
     </div>
     </div>
-    <div className='flex justify-end flex-1'>
+    <Link href="https://chatomatic-chat1.vercel.app" className='flex justify-end flex-1'>
     <Image className='rounded-md' src="/chat_app_design.png" width={600} height={600} alt="hero"/>
-    </div>
+    </Link>
     </div>
 
 

@@ -22,9 +22,9 @@ const JustforFoodies = () => {
     </Link>
     </div>
     </div>
-    <div className='flex justify-end flex-1'>
+     <Link className='flex justify-end flex-1' href="https://justforfoodies.vercel.app/">
     <Image className='rounded-md' src="/just_for_foodies_design.png" width={600} height={600} alt="hero"/>
-    </div>
+    </Link>
     </div>
 
 

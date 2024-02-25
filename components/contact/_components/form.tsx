@@ -35,17 +35,17 @@ const ShadowForm: React.FC<ShadowFormProps> = () => {
     <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-10">
        <div className="grid w-full max-w-sm items-center gap-1.5">
        <Label htmlFor="user" className="text-[#414141]">User name</Label>
-       <Input type="text" id="user" placeholder="username" name="user_name"  className='dark:text-[#414141]' required/>
+       <Input type="text" id="user" placeholder="username" name="user_name"  className='dark:text-slate-200 focus-visible:ring-transparent' required/>
      </div>
 
        <div className="grid w-full max-w-sm items-center gap-1.5">
        <Label htmlFor="email" className="text-[#414141]">Email</Label>
-       <Input type="email" name="user_email" id="email" placeholder="Email"  className='dark:text-[#414141]' required/>
+       <Input type="email" name="user_email" id="email" placeholder="Email"  className='dark:text-slate-200 focus-visible:ring-transparent' required/>
      </div>
 
        <div className="grid w-full max-w-sm gap-1.5">
        <Label htmlFor="message" className="text-[#414141]">Your message</Label>
-       <Textarea placeholder="Type your message here." name="message" id="message" className='dark:text-[#414141]'  required/>
+       <Textarea placeholder="Type your message here." name="message" id="message" className='dark:text-slate-200 focus-visible:ring-transparent'  required/>
      </div>
 
        <div className="grid w-full max-w-sm gap-1.5">

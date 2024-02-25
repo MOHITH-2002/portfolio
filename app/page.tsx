@@ -10,6 +10,7 @@ import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/Footer";
 import Skills from "@/components/skills/Skills";
 
+
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -42,6 +43,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
+
       </div>
       <Footer />
 

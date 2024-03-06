@@ -23,6 +23,7 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-player": "^2.15.1",
     "react-responsive-carousel": "^3.2.23",
     "react-simple-typewriter": "^5.0.1",
     "sonnar": "^1.0.0",

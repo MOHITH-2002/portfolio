@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils';
 import Covid from './_components/data_analytics/covid';
 import Events from './_components/webprojects/events';
 import Webwrite from './_components/webprojects/webwrite';
-import IvicamAi from './_components/webprojects/ivicanAi';
+import IvicamAi from './_components/webprojects/ivicamAi';
 
 
 const Projects = () => {

@@ -6,7 +6,7 @@ import React from 'react'
 
 const ContactList = () => {
   return (
-    <>
+    <div className="flex flex-col ">
     {/* address */}
         <div className="flex gap-x-10 mb-10">
 
@@ -42,7 +42,7 @@ const ContactList = () => {
              </Link>
         </div>
         </div>
-    </>
+    </div>
 
   )
 }

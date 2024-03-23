@@ -42,9 +42,9 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
 
       </div>
+        <Contact />
       <Footer />
 
       {showScrollButton && (

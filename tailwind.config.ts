@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'img': "url('https://res.cloudinary.com/dpgxmmowq/image/upload/v1711191750/output-onlinepngtools_iuunre.png')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

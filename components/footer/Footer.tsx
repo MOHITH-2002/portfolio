@@ -1,14 +1,16 @@
+import Link from "next/link";
+import React from "react";
+import Contacticons from "../contact/contacticons";
 
-import Link from 'next/link'
-import React from 'react'
-
-const Footer = () => { 
+const Footer = () => {
   return (
-    <div className="flex h-20 items-center justify-center bg-[#1F1400] text-white">
-        <Link className="text-xl font-bold hover:text-blue-700  " href="https://github.com/MOHITH-2002">Mohith B A</Link>
-        <h1 className="text-lg"> |© All rights reserved.</h1>
-    </div>
+    <footer className="py-10 flex flex-col gap-3 justify-center md:flex-row z-50 w-full md:justify-between items-center  lg:px-16 md:px-10 px-3 ">
+        <Link href="/">
+            <h1>Mohith B A | ©{new Date().getFullYear()}</h1>
+        </Link>
+        <Contacticons/>
+    </footer>
   )
-}
+};
 
-export default Footer
+export default Footer;

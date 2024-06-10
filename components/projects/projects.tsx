@@ -1,84 +1,34 @@
-"use client";
-import React, { useState } from 'react'
-import { Button } from '../ui/button'
-import Notejoy from './_components/webprojects/notejoy'
-import Chat_app from './_components/webprojects/chat_app'
-import PlotChart from './_components/data_analytics/plot_chart'
+"use client"
+import React from "react";
 
-import JustforFoodies from './_components/webprojects/just_for_foodies'
-import { cn } from '@/lib/utils';
 
-import Covid from './_components/data_analytics/covid';
-import Events from './_components/webprojects/events';
-import Webwrite from './_components/webprojects/webwrite';
-import IvicamAi from './_components/webprojects/ivicamAi';
-
+import Webwrite from "./webwrite/webwrite";
+import Qrtickets from "./qrtickets/Qrtickets";
+import ChatApp from "./chatapp/ChatApp";
+import Events from "./Events/Events";
+import Ivicam from "./ivicam/ivicam";
+import Notion from "./notion/Notion";
 
 const Projects = () => {
-  const [web,isWeb] = useState(true)
-  const [data,isData]= useState(false)
-
-  
-  return (
+  return(
+    <div className=" flex flex-col space-y-10 pb-20 py-20">
     <div className="flex flex-col">
-    <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-y-8 pb-10">
-    <h1 className=" pt-10 text-3xl text-[#FDCA3A] font-bold text-center">Projects</h1>
-    <div className="flex gap-x-8 ">
-        <Button onClick={()=>{isWeb(true);
-              isData(false);
-            } } className={cn(web ? "bg-red-600 hover:bg-red-500" : "")}>
-            Web
-          </Button>
-          <Button onClick={()=>{ isWeb(false); // Set web to false when data is clicked
-              isData(true);
-            }} className={cn(data ? "bg-red-600 hover:bg-red-500" : "")}>
-            Data Analytics
-          </Button>
-    </div>
-    </div>
-    {/* Web projects */}
-    {web &&(
+    <h1 className="text-[2.25rem] leading-4 md:text-[3.75rem] md:leading-10 font-bold">Projects 👨‍💻</h1>
+    <h1 className="text-3xl md:text-5xl font-bold pb-2 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">All Creative Works</h1>
 
-      <div data-aos="fade-up">
-      <div  className="flex pt-10 pb-20 md:justify-center">
-          <Webwrite/>
-        </div>
-      <div  className="flex pt-10 pb-20 md:justify-center">
-          <Notejoy />
-        </div>
-        <div className="flex pt-10 pb-20 md:justify-center">
-            <Chat_app />
-          </div>
-          
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <IvicamAi />
-          </div>
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <Events/>
-          </div>
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <JustforFoodies />
-          </div>
-          
-          </div>
-      )}
-    {/* Data Anyaltics */}
-    {
-      data &&(
-        <div data-aos="fade-up">
-        <div className="flex pt-10 pb-20 md:justify-center">
-            <Covid/>
+    </div>
+    <div className=" flex flex-col lg:h-[1600px] items-center gap-10 relative">
 
-          </div>
-          <div className="flex pt-10 pb-20 md:justify-center">
-            <PlotChart />
-          </div>
-        </div>
-      )
-    }
+        <Webwrite/>
+        <Qrtickets/>
+        <ChatApp/>
+        <Events/>
+        <Ivicam/>
+        <Notion/>
     </div>
     
-  )
-}
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;

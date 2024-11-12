@@ -23,7 +23,7 @@ const Contacticons = () => {
                                     <FaLinkedinIn size={20} />
                                 </Button>
                             </Link>
-                            <Link href="https://www.instagram.com/mohith_b_a" className="hover:-translate-y-1 transition ease-in-out">
+                            <Link href="https://www.instagram.com/mohith.ba" className="hover:-translate-y-1 transition ease-in-out">
                                 <Button variant="ghost" size="icon" className="bg-slate-300/20">
                                     <RiInstagramFill size={20} />
                                 </Button>
